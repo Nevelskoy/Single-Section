@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@700&display=swap');
+
+
 * {
   box-sizing: border-box;
 }
@@ -7,10 +10,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
+  color: #fff;
   display: flex;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -20,7 +30,7 @@ img {
 .container {
   margin: auto;
   max-width: 100%;
-  width: 800px;
+  width: 1200px;
 }
 
 .flex {
